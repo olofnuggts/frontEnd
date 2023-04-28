@@ -1,7 +1,7 @@
 export default async function handler(req, res) {
   try {
     const response = await fetch(
-      "https://myplantfunctions.azurewebsites.net/api/getlastdata?code=4RUwpolXXQ1hk_9DaovlnpPXvudZE-HJQUPzrsGVcVpjAzFudQ8Vxg=="
+      "https://myplantfunctions.azurewebsites.net/api/getlastdata?code="
     );
     const data = await response.json();
     const extractedData = [];
